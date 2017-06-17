@@ -1,8 +1,12 @@
 set nocompatible
-" 17M16F JD - I don't know what these lines do 
-"source $VIMRUNTIME/vimrc_example.vim
-"source $VIMRUNTIME/mswin.vim
+" commenting out these two lines disables windows paste. 
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
 behave mswin
+
+" set location of swap and backup files
+set directory=C://Users//dasen//vimbackup//
+set backupdir=C://Users//dasen//vimbackup//
 
 " These two lines are for entering lines above or below without leaving in
 " normal mode.
