@@ -7,6 +7,7 @@ behave mswin
 " set location of swap and backup files
 set directory=C://Users//dasen//vimbackup//
 set backupdir=C://Users//dasen//vimbackup//
+set undodir=C://Users//dasen//vimbackup//
 
 " These two lines are for entering lines above or below without leaving in
 " normal mode.
