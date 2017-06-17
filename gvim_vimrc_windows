@@ -16,8 +16,9 @@ nmap <CR> o<Esc>
 
 syntax enable " Turns on syntax highlighting. 
 
+
 set expandtab " No tabs, just spaces.
-set tabstop=8 " Pressing tab results in four spaces.
+set tabstop=4 " Pressing tab results in four spaces.
 
 set history=100 " This sets vim to save the last 100 commands. 
 
@@ -38,6 +39,7 @@ hi Statement guifg=red
 hi Constant guifg=DarkGrey
 hi Comment guifg=grey70
 hi MatchParen term=reverse ctermbg=3 guibg=Peru guifg=wheat
+
 
 
 
