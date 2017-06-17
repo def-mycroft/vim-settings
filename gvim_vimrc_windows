@@ -1,0 +1,39 @@
+set nocompatible
+" 17M16F JD - I don't know what these lines do 
+"source $VIMRUNTIME/vimrc_example.vim
+"source $VIMRUNTIME/mswin.vim
+behave mswin
+
+" These two lines are for entering lines above or below without leaving in
+" normal mode.
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+
+syntax enable " Turns on syntax highlighting. 
+
+set expandtab " No tabs, just spaces.
+set tabstop=8 " Pressing tab results in four spaces.
+
+set history=100 " This sets vim to save the last 100 commands. 
+
+set hidden " This leaves hidden buffers open - not that I know what this means.
+
+set number " This sets line numbers.
+
+colorscheme slate " This sets the default color scheme to slate.
+
+set guifont=Lucida_Console:h12:cDEFAULT " Sets the font to Lucida Console, size 12 
+
+set lines=202 columns=85 " Sets up the initial window size in terms of columns
+
+set cc=81
+
+hi String guifg=olivedrab
+hi Statement guifg=red
+hi Constant guifg=DarkGrey
+hi Comment guifg=grey70
+hi MatchParen term=reverse ctermbg=3 guibg=Peru guifg=wheat
+
+
+
+
