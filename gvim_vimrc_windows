@@ -11,7 +11,12 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " plugins 
+
+" text match function
 Plugin 'matchit.zip'
+
+" plugin to change font size
+Plugin 'https://github.com/schmich/vim-guifont.git'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -93,10 +98,10 @@ hi Comment guifg=grey70
 hi MatchParen term=reverse ctermbg=3 guibg=Peru guifg=wheat
 
 " filetype specific settings
-" autocmd FileType html setlocal shiftwidth=2 tabstop=2 
 set lines=202 columns=85 
 set cc=81
 
 " settings for html file
+" autocmd FileType html setlocal shiftwidth=2 tabstop=2 
 autocmd FileType html setlocal cc=0
 autocmd FileType html setlocal lines=202 columns=185
